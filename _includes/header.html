@@ -1,0 +1,10 @@
+<header>
+  <div class="logo">
+    <a style="font-weight: bold; letter-spacing: 0.3px;" href="{{ site.github.url }}/">Sylvia Cruz-Albrecht</a>
+  </div>
+  <nav>
+    {% for item in site.data.settings.menu %}
+      <a href="{{ site.github.url }}/{{ item.url }}">{{ item.name }}</a>
+    {% endfor %}
+  </nav>
+</header>

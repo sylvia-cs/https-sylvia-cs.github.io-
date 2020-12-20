@@ -1,0 +1,190 @@
+.header
+  size: 24px
+  weight: 400
+  color: $accent-color
+  margin: 15px auto 10px
+  text-align: center
+
+.thumb-container
+  max-width: 600px
+  +clearfix
+  .thumb-unit
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)
+    cursor: pointer
+    display: block
+    width: 200px
+    height: 200px
+    margin: 0px auto 30px
+    position: relative
+    overflow: hidden
+    background:
+      position: center center
+      repeat: no-repeat
+      size: cover
+    .thumb-overlay
+      +position(absolute, 100% 0px null 0px)
+      height: 100%
+      background: fade-out(#333, 0.5)
+      text-align: center
+      //+transition
+      +display(flex)
+      +align-items(center)
+      +justify-content(space-around)
+      strong
+        display: block
+        padding: 20px
+        color: white
+        line-height: 1.2
+        font:
+          size: 20px
+          weight: 300
+    &:hover .thumb-overlay
+      +position(absolute, 0px 0px null 0px)
+
+@media (max-width: 768px)
+  .thumb-container
+    max-width: 70vw
+
+
+.page-content
+  width: 500px
+  margin: 30px
+  h1
+    line-height: 1.5
+    color: black
+    font:
+      size: 30px
+      weight: 700
+  p
+    line-height: 1.5
+    font:
+      size: 16px
+
+.thumb-container-large
+  max-width: 750px
+  margin: 0px auto 0px
+  +clearfix
+  .thumb-unit
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)
+    cursor: pointer
+    display: block
+    width: 700px
+    height: 150px
+    margin: 0px auto 30px
+    position: relative
+    overflow: hidden
+    background:
+      position: center center
+      repeat: no-repeat
+      size: cover
+    .thumb-overlay
+      +position(absolute, 100% 0px null 0px)
+      height: 100%
+      background: fade-out(#333, 0.5)
+      text-align: center
+      //+transition
+      +display(flex)
+      +align-items(center)
+      +justify-content(space-around)
+      strong
+        display: block
+        color: white
+        line-height: 1.2
+        font:
+          size: 20px
+          weight: 300
+    &:hover .thumb-overlay
+      +position(absolute, 0px 0px null 0px)
+
+@media (max-width: 768px)
+  .thumb-container-large
+    max-width: 80vw
+    height: 40vw
+    .thumb-unit
+
+.thumb-container-writing
+  max-width: 750px
+  margin: 0px auto 0px
+  +clearfix
+  .thumb-unit
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)
+    cursor: pointer
+    display: block
+    width: 700px
+    height: 100px
+    margin: 0px auto 30px
+    position: relative
+    overflow: hidden
+    background:
+      position: center center
+      repeat: no-repeat
+      size: cover
+    .thumb-overlay
+      +position(absolute, 100% 0px null 0px)
+      height: 100%
+      background: fade-out(#333, 0.5)
+      text-align: center
+      //+transition
+      +display(flex)
+      +align-items(center)
+      +justify-content(space-around)
+      strong
+        display: block
+        color: white
+        line-height: 1.2
+        font:
+          size: 20px
+          weight: 300
+    &:hover .thumb-overlay
+      +position(absolute, 0px 0px null 0px)
+
+@media (max-width: 768px)
+  .thumb-container-writing
+    max-width: 80vw
+    .thumb-unit
+      width: 80vw
+      height: 10vw
+
+
+.thumb-container-wide
+  max-width: 750px
+  margin: 0px auto 0px
+  +clearfix
+  .thumb-unit
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)
+    cursor: pointer
+    display: block
+    width: 700px
+    height: 120px
+    margin: 0px auto 30px
+    position: relative
+    overflow: hidden
+    background:
+      position: center center
+      repeat: no-repeat
+      size: cover
+    .thumb-overlay
+      +position(absolute, 100% 0px null 0px)
+      height: 100%
+      background: fade-out(#333, 0.5)
+      text-align: center
+      //+transition
+      +display(flex)
+      +align-items(center)
+      +justify-content(space-around)
+      strong
+        display: block
+        color: white
+        line-height: 1.2
+        font:
+          size: 20px
+          weight: 300
+    &:hover .thumb-overlay
+      +position(absolute, 0px 0px null 0px)
+
+@media (max-width: 768px)
+  .thumb-container-wide
+    max-width: 80vw
+    .thumb-unit
+      width: 80vw
+      height: 20vw

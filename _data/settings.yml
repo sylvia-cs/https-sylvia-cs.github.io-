@@ -1,0 +1,113 @@
+#-------------------------------
+# General Site Settings
+
+menu:
+- {name: 'Portfolio', url: 'pages/portfolio.html'}
+# - {name: 'Blog', url: 'pages/blog.html'}
+# - {name: 'About', url: ''}
+- {name: 'Resume', url: 'pages/resume.html'}
+- {name: 'Contact', url: 'pages/contact.html'}
+
+#-------------------------------
+# SEO Section
+
+# NOTE: Providing SEO information will make this website more searchable on the internet.
+
+seo:
+  description: 'Personal portfolio powered by Jekyll and GitHub Pages '
+  rel-author: 'https://plus.google.com/u/0/#'
+  rel-publisher: 'https://plus.google.com/u/0/#'
+
+#-------------------------------
+# Google Analytics Section
+
+# Analytics helps you understand who visits your website.
+# Learn more at: http://support.google.com/analytics/answer/1008065
+
+# NOTE: If you want to use Google Analytics for basic web tracking: Just uncomment and enter your UA-Code here.
+
+# If you are not using Google Analytics, please change 'google-ID' to an empty string
+google-analytics-ua: 'UA-112060364-3'
+
+#-------------------------------
+# Disqus Section
+
+# Change to true for Disqus comments
+disqus:
+  comments: false
+  disqus_shortname: 'thathungrymind'
+
+#-------------------------------
+# About Section
+
+about: >
+  # Hi, I'm Sylvia
+
+  I'm an undergraduate at Harvard pursuing a B.A. in computer science. My passion for creating software stems from the intersection of engineering challenges and social, user-oriented impact, and in the past I've worked on projects in domains ranging from finance, social justice, health, coalition-building, and sociology.
+  I'm a member of Harvard's Women in Computer Science group, Google Women Techmakers, and Rewriting the Code Fellowship, which provide the opportunity to mentor, learn from, and advocate for women in tech.
+
+  I'm run on Harvard's cross-country and track teams. I'm also passionate about environment + sustainability and women + gender studies and occassionally write on these topics.
+
+contact: >
+  # Contact Me
+
+  - Email: [sylvia_cruzalbrecht@college.harvard.edu](mailto:sylvia_cruzalbrecht@college.harvard.com)
+  
+  - LinkedIn: [sylvia-ca](https://www.linkedin.com/in/sylvia-ca)
+  
+  - Github:  [sylvia-cs](https://github.com/sylvia-cs)
+
+#-------------------------------
+# Work Section
+projects:
+- {name: 'Puzzle Solver', folder: 'puzzlesolver', file: 'projects/puzzlesolver.html'}
+- {name: 'Virus Simulator', folder: 'virus-simulator', file: 'projects/virus-simulator.html'}
+- {name: 'Campfire Landing', folder: 'campfire-landing', file: 'projects/campfire-landing.html'}
+- {name: 'Run for Justice Website', folder: 'runforjustice', file: 'projects/run-for-justice.html'}
+- {name: 'Key Club Newsletter', folder: 'key-club-newsletter', file: 'projects/key-club-newsletter.html'}
+- {name: 'Concept Landing Page: 21mint', folder: '21mint', file: 'projects/21mint-concept.html'}
+- {name: 'Imposterism in Harvard First-Years', folder: 'imposterism', file: 'projects/imposterism.html'}
+- {name: 'Contested Boundaries', folder: 'writing1', file: 'projects/contested-boundaries.html'}
+- {name: 'Patriarchal Consciousness', folder: 'writing2', file: 'projects/patriarchal-consciousness.html'}
+- {name: 'The Economy of Women', folder: 'writing3', file: 'projects/the-economy-of-women.html'}
+
+cs-projects:
+- {name: 'Puzzle Solver', folder: 'puzzlesolver', file: 'projects/puzzlesolver.html'}
+- {name: 'Virus Simulator', folder: 'virus-simulator', file: 'projects/virus-simulator.html'}
+- {name: 'Campfire Landing', folder: 'campfire-landing', file: 'projects/campfire-landing.html'}
+
+
+design:
+- {name: 'Run for Justice Website', folder: 'runforjustice', file: 'projects/run-for-justice.html'}
+- {name: 'Key Club Newsletter', folder: 'key-club-newsletter', file: 'projects/key-club-newsletter.html'}
+- {name: 'Concept Landing Page: 21mint', folder: '21mint', file: 'projects/21mint-concept.html'}
+
+research:
+- {name: 'Imposterism in Harvard First-Years', folder: 'imposterism', file: 'projects/imposterism.html'}
+
+writing:
+- {name: 'Contested Boundaries', folder: 'writing1', file: 'projects/contested-boundaries.html'}
+- {name: 'Patriarchal Consciousness', folder: 'writing2', file: 'projects/patriarchal-consciousness.html'}
+- {name: 'The Economy of Women', folder: 'writing3', file: 'projects/the-economy-of-women.html'}
+
+newsletter-covers:
+- {name: 'cover-1', file: 'cover-1.png'}
+- {name: 'cover-2', file: 'cover-2.png'}
+- {name: 'cover-3', file: 'cover-3.png'}
+newsletter-graphics:
+- {name: 'graphic-1', file: 'graphic-1.png'}
+- {name: 'graphic-2', file: 'graphic-2.png'}
+newsletter-layouts:
+- {name: 'layout-2', file: 'layout-2.png'}
+- {name: 'layout-1', file: 'layout-1.png'}
+- {name: 'layout-3', file: 'layout-3.png'}
+
+
+#-------------------------------
+# Contact Section
+
+social:
+- {icon: 'github', link: 'https://github.com/sylvia-cs'}
+- {icon: 'linkedin', link: 'https://www.linkedin.com/in/sylvia-ca'}
+- {icon: 'envelope', link: 'mailto:sylvia_cruzalbrecht@college.harvard.edu'}
+
