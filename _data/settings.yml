@@ -83,7 +83,7 @@ design:
 - {name: 'Concept Landing Page: 21mint', folder: '21mint', file: 'projects/21mint-concept.html'}
 
 research:
-- {name: 'Gender and Imposterism in Harvard First-Years', folder: 'imposterism', file: 'projects/imposterism.html'}
+- {name: 'Imposterism in Harvard First-Years', folder: 'imposterism', file: 'projects/imposterism.html'}
 
 writing:
 - {name: 'Contested Boundaries', folder: 'writing1', file: 'projects/contested-boundaries.html'}
