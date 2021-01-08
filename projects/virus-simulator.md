@@ -12,6 +12,6 @@ In this project, I developed a simulator that models an infectious process withi
 
 The simulator also attempts to model the importance of “flattening the curve” of viral outbreaks by setting hospital capacity and the corresponding higher mortality once a certain threshold of infected individuals is met.
 
-This project was developed using functional programming in OCaml. I developed mathematical functions to randomize the step sizes of moving persons, calculate probabilities, find the distance between persons, determine the gaussian mean, and keep a counter of total states in the population. This project also involved object-oriented programming and inherited classes, with a broad “Person” class and more specific classes for people in various states.
+This project was developed using functional programming in OCaml. I developed mathematical functions to randomize the step sizes of moving persons, calculate probabilities, find the distance between persons, determine the gaussian mean, and keep a counter of total states in the population. This project also involved object-oriented programming and inherited classes, with a broad “Person” class and more specific classes to represent people in various states.
 
 <img src="{{ site.baseurl }}/assets/animation/simulation.gif">
